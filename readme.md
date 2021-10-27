@@ -24,3 +24,13 @@ Playing with circles and strokes.
 ![sketch 03 sample](./out/sketch03/2021.10.24-14.41.37.png)
 ![sketch 03 sample](./out/sketch03/2021.10.24-20.55.24.png)
 ![sketch 03 sample](./out/sketch03/2021.10.24-20.58.02.png)
+
+
+## Sketch 04
+
+Random textures and some simplex noise
+
+![sketch 04 sample](out\sketch04\2021.10.27-22.59.52.png)
+![sketch 04 sample](out\sketch04\2021.10.27-23.29.36.png)
+![sketch 04 sample](out\sketch04\2021.10.27-23.36.53.png)
+![sketch 04 sample](out\sketch04\2021.10.27-23.46.07.png)
