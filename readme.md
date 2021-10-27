@@ -30,7 +30,7 @@ Playing with circles and strokes.
 
 Random textures and some simplex noise
 
-![sketch 04 sample](out\sketch04\2021.10.27-22.59.52.png)
-![sketch 04 sample](out\sketch04\2021.10.27-23.29.36.png)
-![sketch 04 sample](out\sketch04\2021.10.27-23.36.53.png)
-![sketch 04 sample](out\sketch04\2021.10.27-23.46.07.png)
+![sketch 04 sample](./out/sketch04/2021.10.27-22.59.52.png)
+![sketch 04 sample](./out/sketch04/2021.10.27-23.29.36.png)
+![sketch 04 sample](./out/sketch04/2021.10.27-23.36.53.png)
+![sketch 04 sample](./out/sketch04/2021.10.27-23.46.07.png)
