@@ -10,18 +10,18 @@ const sketch = () => {
     context.fillRect(0, 0, width, height);
     context.lineWidth = 3;
 
-	const padding = 40 
+	const padding = 400 
 	const size = width - padding // to scale down the plot later
-	const step = 40
+	const step = 50
 	let lines = []
 
 	
 
 	// setup our data
 	// transform to lambda
-	for(let i = step; i <= size-step; i += step){
+	for(let i = step; i <= size; i += step){
 		let line = []
-		for(let j = step; j <= size - step; j += step){
+		for(let j = 0; j <= size+(step *3); j += step){
 			const distanceToCenter = Math.abs(j - size / 2)
 			const variance = Math.max(size / 3 - distanceToCenter,0)
 			const random = () => Math.random() * variance / 3 * -1
@@ -31,6 +31,7 @@ const sketch = () => {
 	}
 
 	// plot the data
+	context.translate(padding/2, padding/2);
 	for(let column in lines){
 		context.beginPath()
 		context.moveTo(lines[column][0].x, lines[column][0].y)
